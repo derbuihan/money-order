@@ -1,8 +1,18 @@
-# Welcome to your CDK TypeScript project
+# Money Order
 
-This is a blank project for CDK development with TypeScript.
+## Setup
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Write your email address to `.env` file.
+
+```bash
+echo "EMAIL_ADDRESS=your-email-address@example.com" > .env
+```
+
+## Deploy
+
+```bash
+npx cdk deploy
+```
 
 ## Useful commands
 
